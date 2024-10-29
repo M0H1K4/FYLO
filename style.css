@@ -4,8 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  min-height: 100vh;
-  min-width: 100vw;
+  /* min-height: 100vh;
+  min-width: 100vw; */
 
 }
 .container {
@@ -14,8 +14,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  /* background-color: red; */
-  margin: 0 auto;
+    /* background-color: red; */
+    margin: 0 auto;
 }
 body {
   min-height: 100vh;
@@ -23,7 +23,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-x: hidden; 
+  /* overflow-y: hidden;  */
+
+  /* background-color: red; */
 }
 
 header {
@@ -106,6 +109,7 @@ footer{
   flex-direction: column;
   width: 100vw; 
   height: 100vh;
+  /* height: 100%; */
   background-color: #07043B;
   /* padding: 0; */
   margin-top: auto;
@@ -370,7 +374,59 @@ line-height: normal;
 .main_div3_desktop{
   display: none;
 }
+.desktop_footer{
+  display: none;
+}
+li {
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for color and text-decoration */
+}
 
+li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  transform: scale(1.05); /* Slightly increase the size for a popping effect */
+  color: #6C9BFF; /* Change the color on hover */
+}
+input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 250px;
+}
+
+.red-border {
+  border: 1px solid red;
+}
+.witeli{
+  color: red;
+}
+.red-message {
+  color: red;
+}
+
+
+.border{
+  border: 2px solid red;
+}
+.hiddenUka {
+  display: none; /* Hides the element */
+}
+.hidden {
+  display: none;
+}
+.mwvane{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+button{
+  transition: background-color 0.3s, transform 0.3s;
+}
+button:hover{
+  background-color: #6C9BFF;
+  cursor: pointer;
+  transform: translateY(2px);
+}
 
 /* for desktop */
 @media screen and (min-width: 550px){
@@ -392,6 +448,7 @@ line-height: normal;
   .main_div1_desktop{
     display: block;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     gap: 50px;
@@ -571,5 +628,42 @@ line-height: normal;
     flex-shrink: 0;
     font-size: 13px;
   }
+  
+footer{
+  flex-wrap: wrap;
+  display: none;
+  height: 100%;
+  margin-top: auto;
+}
+.desktop_footer{
+  display: block;
+}
+.footerDivino{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 120px;
+  width: 80%;
+}
+.footer_div4{
+  margin-top: 110px;
+}
+.ulsiko, .ulsiko2{
+  margin-top: 150px;
+}
+.footer_image_main{
+  width: 135px;
+  height: 39px;
+  flex-shrink: 0;
+}
+.doper1{
+  margin-top: 50px;
+}
+.footer_div1{
+  gap: 100;
+}
+.doper2{
+  margin-top: -30px;
+}
   
 }
