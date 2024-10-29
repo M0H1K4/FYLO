@@ -24,6 +24,8 @@ header {
   margin: 0 auto;
   margin-top: 24px;
   /* padding: 10px; */
+  /* text-align: center; */
+
 }
 ul {
   display: flex;
@@ -36,7 +38,9 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 0 auto;
 }
+
 .main_div1 {
   display: flex;
   flex-direction: column;
