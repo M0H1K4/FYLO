@@ -15,11 +15,13 @@
     align-items: center;
     flex-direction: column;
   /* background-color: red; */
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 body {
   min-height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   overflow-x: hidden; /* Prevent horizontal scroll */
 }
@@ -53,10 +55,10 @@ ul {
 .main_div1 {
   display: flex;
   flex-direction: column;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   padding: 30px;
   gap: 20px;
-  /* align-items: center; */
+  align-items: center;
 }
 .main_div1_h1 {
   width: 320px;
@@ -103,7 +105,205 @@ footer{
   display: flex;
   width: 100vw; 
   height: 200px;
-  background-color: red;
+  background-color: #07043B;
   /* padding: 0; */
   margin-top: auto;
+}
+
+.main_div2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* align-items: center; */
+  background-image: url('./assets/Mobile/Rectangle\ Copy.png');
+  /* background-repeat: no-repeat; */
+  height: 961px;
+  /* width: 100vw; */
+  margin-top: 50px;
+}
+.main_div_for_img{
+  margin-top: 10px;
+
+}
+.main_div2_txts_h1{
+  color: #07043B;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  width: 260px;
+  text-align: center;
+}
+.main_div2_txts_h2{
+  width: 320px;
+  color: #615F7E;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+.main_div2_txts_h3{
+  width: 320px;
+  color: #615F7E;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+
+.main_div2_txts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+h4{
+  text-decoration: none;
+  color: #3DA08F;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+hr{
+  width: 130px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #3DA08F;
+  border: none;
+}
+
+.liner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+  /* gap: 120px; */
+}
+.liner2{
+  display: flex;
+  gap: 10px;
+}
+/* .barati{
+  width: ;
+} */
+.barati_h2{
+  width: 241.303px;
+  color: #07043B;
+font-family: "Open Sans";
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 18.09px; /* 180.899% */
+letter-spacing: 0.385px;
+}
+.barati{
+  background-color: white;
+  width: 280px;
+height: 169.101px;
+flex-shrink: 0;
+padding: 20px;
+border-radius: 3.933px;
+background: #FFF;
+box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.05);
+margin-top: 40px;
+}
+.ikonka{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+
+
+}
+h5{
+  color: #07043B;
+font-family: "Open Sans";
+font-size: 9px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.45px;
+}
+.ikonka_p{
+  color: #07043B;
+font-family: "Open Sans";
+font-size: 6px;
+font-style: normal;
+font-weight: 400;
+line-height: 11.798px; /* 196.629% */
+letter-spacing: 0.3px;
+margin-top: -10px;
+}
+.main_div3{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+  width: 100vw;
+  height: 345px;
+  flex-shrink: 0;
+  background-color: #575988;
+  gap: 10px;
+}
+
+.main_div3_h1{
+  color: #FFF;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 133.333% */
+}
+.main_div3_p{
+  width: 280px;
+  color: #FFF;
+text-align: center;
+font-family: "Open Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+}
+.main_div3_input{
+  width: 240px;
+height: 32px;
+flex-shrink: 0;
+background-color: white;
+color: #C0C0C0;
+border: none;
+color: #C0C0C0;
+font-family: Raleway;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 5px;
+
+}
+.mainDiv3_button{
+  width: 240px;
+height: 32px;
+flex-shrink: 0;
+background-color: #2f65f8;
+filter: drop-shadow(1px 1px 3px rgba(7, 4, 59, 0.16));
+border: none;
+color: #FFF;
+font-family: Raleway;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 5px;
 }
