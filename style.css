@@ -103,11 +103,15 @@ ul {
 }
 footer{
   display: flex;
+  flex-direction: column;
   width: 100vw; 
-  height: 200px;
+  height: 100%;
   background-color: #07043B;
   /* padding: 0; */
   margin-top: auto;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
 }
 
 .main_div2{
@@ -306,4 +310,54 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 border-radius: 5px;
+}
+.dopper_h1{
+  color: #FFF;
+font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.footer_div1{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+.doper1, .doper2{
+  display: flex;
+  gap: 20px;
+}
+.ulsiko{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.ulsiko2{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 40px;
+}
+.ulsiko_li, .ulsiko2_li{
+  color: white;
+font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer1{
+  background-color: white;
+  background:none;
+}
+.footer_div4{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
