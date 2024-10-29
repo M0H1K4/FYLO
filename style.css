@@ -393,6 +393,12 @@ input {
   width: 250px;
 }
 
+.forMobileInputBorder{
+  border: 2px solid red;
+}
+.forMobileDiv2{
+  display: none;
+}
 .red-border {
   border: 1px solid red;
 }

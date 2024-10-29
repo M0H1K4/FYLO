@@ -8,21 +8,6 @@ emailInput.addEventListener('focus', () => {
 });
 
 
-// const meoreInput = document.getElementById('input2');
-
-// meoreInput.addEventListener('focus', () => {
-//     message2.classList.add('red-message');
-// })
-
-// const meoreInput = document.getElementById('input2');
-// const message2 = document.getElementById('message2'); // Ensure this element exists
-
-// meoreInput.addEventListener('focus', () => {
-//     message2.classList.remove('hidden'); // Show the message
-//     message2.classList.add('red-message'); // Add the red-message class
-// });
-// console.log('red-message');
-
 
 const lukasInput = document.getElementById('lukaInput');
 const luksMessage = document.getElementById('luksMessage');
@@ -33,3 +18,26 @@ lukasInput.addEventListener('focus', () => {
     lukasInput.classList.add('border')
 });
 
+
+
+
+const forMobileInput = document.getElementById('forMobileInput');
+const forMobileDiv2 = document.getElementById('forMobileDiv2');
+
+forMobileInput.addEventListener('focus', () => {
+    forMobileDiv2.classList.remove('forMobileDiv2'); // Show the message
+    forMobileDiv2.classList.add('witeli') ; 
+    forMobileInput.classList.add('forMobileInputBorder'); // Add border
+});
+// console.log( forMobileInput.classList.add('forMobileInputBorder'))
+
+
+const input2 = document.getElementById('input2');
+const message2 = document.getElementById('message2');
+
+    input2.addEventListener('focus', () => {
+        message2.classList.remove("hidden");
+        message2.classList.add('witeli');
+        input2.classList.add('border')
+
+    })
