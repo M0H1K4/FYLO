@@ -393,37 +393,12 @@ input {
   width: 250px;
 }
 
-.forMobileInputBorder{
-  border: 2px solid red;
-}
-.forMobileDiv2{
-  display: none;
-}
-.red-border {
-  border: 1px solid red;
-}
-.witeli{
-  color: red;
-}
-.red-message {
-  color: red;
-}
 
 
-.border{
-  border: 2px solid red;
-}
-.hiddenUka {
-  display: none; /* Hides the element */
-}
-.hidden {
+/* .hidden {
   display: none;
-}
-.mwvane{
-  background-color: red;
-  width: 200px;
-  height: 200px;
-}
+} */
+
 
 button{
   transition: background-color 0.3s, transform 0.3s;
@@ -433,13 +408,43 @@ button:hover{
   cursor: pointer;
   transform: translateY(2px);
 }
-
+.main_div22{
+  display: none;
+}
+.hidden{
+  display: none;
+}
+/* .footer_div1{
+  display: none;
+} */
 /* for desktop */
+
 @media screen and (min-width: 550px){
   .headerDiv__img{
     width: 166px;
     height: 49px;
     flex-shrink: 0;
+  }
+  .inputDivForJs{
+    display: flex;
+    flex-direction: column;
+  }
+  .jsDiv{
+    display: flex;
+  }
+  .marginio{
+    margin-top: 10px;
+  }
+  #emailInput{
+    padding: 20px;
+    height: 0px;
+  }
+  .witeli{
+    color: red;
+  }
+  .hidden{
+    display: none;
+   
   }
   header{
     margin-top: 50px;
